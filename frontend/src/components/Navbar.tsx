@@ -52,7 +52,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
           >
            <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="32px" stroke="url(#grad)" strokeWidth="30" fill="url(#grad)"><defs><linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style={{stopColor:"rgb(99,102,241)"}} /><stop offset="50%" style={{stopColor:"rgb(168,85,247)"}} /><stop offset="100%" style={{stopColor:"rgb(236,72,153)"}} /></linearGradient></defs><path d="M480-120 200-272v-240L40-600l440-240 440 240v320h-80v-276l-80 44v240L480-120Zm0-332 274-148-274-148-274 148 274 148Zm0 241 200-108v-151L480-360 280-470v151l200 108Zm0-241Zm0 90Zm0 0Z"/></svg>
-            <span>TSR</span>
+            <span>𝐓𝐒𝐑</span>
           </Link>
 
           {/* Desktop Navigation */}

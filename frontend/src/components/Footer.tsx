@@ -5,7 +5,7 @@ import { FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaDiscord } f
 
 const socialLinks = [
   { name: 'Facebook', icon: FaFacebook, url: 'https://www.facebook.com/tusharlegacy' },
-  { name: 'GitHub', icon: FaGithub, url: 'https://github.com/tsrlegacy' },
+  { name: 'GitHub', icon: FaGithub, url: 'https://github.com/tsrhub' },
   { name: 'LinkedIn', icon: FaLinkedin, url: 'https://www.linkedin.com/in/tusharlegacy' },
   { name: 'Discord', icon: FaDiscord, url: 'https://discord.com/users/tusharlegacy' },
   { name: 'Twitter', icon: FaTwitter, url: 'https://x.com/legacytushar' },

@@ -59,8 +59,8 @@ export default function Hero() {
             <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full blur-2xl opacity-30 animate-pulse" />
             <div className="relative w-full h-full rounded-full border-2 border-purple-500/30 overflow-hidden">
               <Image
-                src=""
-                alt=""
+                src="/images/profile.png"
+                alt="Tushar Singha Profile"
                 fill
                 className="object-cover"
                 priority
@@ -86,9 +86,12 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6"
+              className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white mb-6 whitespace-nowrap"
             >
-              Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Tushar Singha</span>
+              Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+                <span className="hidden sm:inline">Tushar Singha</span>
+                <span className="sm:hidden">TushAr</span>
+              </span>
             </motion.h1>
 
             {/* Dynamic text */}

@@ -29,6 +29,16 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+/* Hide scrollbar */
+html, body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}
+
 /* Typewriter Effect */
 .type-writer {
   display: inline-flex;

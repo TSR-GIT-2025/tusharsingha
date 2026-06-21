@@ -37,7 +37,7 @@ export default function Header() {
                 href="https://youtube.com/@tech_tsr_2024?si=9h4D4G9V3PlyUfKF" 
                 className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent hover:opacity-80 transition-opacity"
               >
-                TSR
+                𝐓𝐒𝐑
               </Link>
             </motion.div>
 

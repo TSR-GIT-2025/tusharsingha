@@ -20,13 +20,13 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-        <title>Legacy</title>
-        <meta name="title" content="Legacy" />
-        <meta property="og:title" content="Legacy" />
-        <meta name="twitter:title" content="Legacy" />
-        <link rel="icon" href="/images/dp.jpeg" type="image/jpeg" />
-        <meta property="og:image" content="/images/dp.jpeg" />
-        <meta name="twitter:image" content="/images/dp.jpeg" />
+        <title>TushAr</title>
+        <meta name="title" content="TushAr" />
+        <meta property="og:title" content="TushAr" />
+        <meta name="twitter:title" content="TushAr" />
+        <link rel="icon" href="/images/profile.png" type="image/png" />
+        <meta property="og:image" content="/images/profile.png" />
+        <meta name="twitter:image" content="/images/profile.png" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
       </head>
