@@ -52,6 +52,18 @@ const skills = [
 ];
 
 const Jouney = [
+  { 
+    title: 'Founder Journey & Personal Challenges', 
+    company: 'Cyber Hub (Concept Stage)', 
+    duration: '2026 - Present', 
+    description: `2026 became one of the most challenging years of my journey. While pursuing my degree, I shifted much of my focus toward exploring the idea of building Cyber Hub, a startup vision centered around technology and innovation. I spent significant time researching business models, product ideas, and long-term goals instead of focusing solely on academics. 
+ 
+ However, this period also brought several setbacks. Ongoing health issues, financial pressure, debt obligations, and the lack of stable employment affected both my productivity and consistency. Technical limitations, including hardware and storage problems with my laptop, slowed down project development and prevented me from building as actively as I had planned. 
+ 
+ Due to health and financial difficulties, I was unable to appear for my 6th-semester examinations. The year became a period of reflection, resilience, and reassessment rather than rapid growth. While progress was slower than expected, the experience taught me valuable lessons about risk management, personal health, discipline, and balancing ambition with long-term stability. 
+ 
+ Currently, I am focused on improving my health, seeking employment opportunities, strengthening my technical skills, and laying a more sustainable foundation for future projects and entrepreneurial goals.` 
+  },
   {
     title: 'Frontend Developer',
     company: 'TSR',
