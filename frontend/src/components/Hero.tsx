@@ -126,7 +126,16 @@ export default function Hero() {
               className="flex flex-wrap gap-4"
             >
               <a
-                href="#Contact"
+                href="#contact"
+                onClick={(e) => {
+                  e.preventDefault();
+                  const element = document.getElementById('contact');
+                  if (element) {
+                    const yOffset = -80;
+                    const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+                    window.scrollTo({ top: y, behavior: 'smooth' });
+                  }
+                }}
                 className="px-5 py-3 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 text-white font-medium hover:opacity-90 transition-opacity"
               >
                 Get in Touch

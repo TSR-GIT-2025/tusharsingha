@@ -156,7 +156,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="Contact" className="py-20 relative bg-black overflow-hidden">
+    <section id="contact" className="py-20 relative bg-black overflow-hidden">
       {/* Background Effects */}
       <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-blue-900/20 to-pink-900/20 pointer-events-none" />
       <div className="absolute -top-40 -left-40 w-80 h-80 bg-indigo-500/30 rounded-full blur-3xl animate-float" />
